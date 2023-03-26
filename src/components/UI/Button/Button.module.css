@@ -1,0 +1,21 @@
+.standardButton {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  background: #1785e5;
+  padding: 10px 16px;
+  border: 1px solid #1785e5;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.standardButton:hover,
+.standardButton:focus,
+.standardButton:focus-visible {
+  color: #1785e5;
+  background: #ffffff;
+  outline: none;
+}

@@ -1,0 +1,65 @@
+.sliderContainer {
+  width: 100%;
+  grid-template-columns: auto 48.8%;
+  display: grid;
+  justify-content: space-between;
+}
+
+.leftColumn {
+  margin-right: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightColumn {
+  position: relative;
+  border-radius: 34px;
+  overflow: hidden;
+}
+
+.invisibleImage {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fadeInImage {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 34px;
+}
+
+.fadebleImg {
+  object-fit: cover;
+  transition: 0.8s;
+  width: 100%;
+  height: 100%;
+  border-radius: 34px;
+}
+
+@media (max-width: 1024px) {
+  .rightColumn {
+    max-height: 558px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sliderContainer {
+    display: block;
+  }
+
+  .leftColumn {
+    margin-right: 0;
+  }
+
+  .rightColumn {
+    max-height: 100%;
+  }
+}
