@@ -21,20 +21,8 @@
     "@types/react-dom": "^18.0.11",
     "@types/react-slick": "^0.23.10",
     "@vitejs/plugin-react": "^3.1.0",
-    "gh-pages": "^5.0.0",
     "typescript": "^4.9.3",
+    "gh-pages": "^5.0.0",
     "vite": "^4.2.0"
-  },
-  "description": "Тестовое задание №3.\r Веб-приложение, реализующее блок со слайдером. Свёрстано адаптивно\r средствами CSS.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Arhonist/37bytes-Task-3.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Arhonist/37bytes-Task-3/issues"
   }
 }
