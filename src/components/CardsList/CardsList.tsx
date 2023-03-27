@@ -1,5 +1,4 @@
-import styles from './CardsList.module.css';
-import { CardProps, CardsListProps } from '../../interfaces/dataInterfaces';
+import { CardsListProps } from '../../interfaces/dataInterfaces';
 import Card from '../Card/Card';
 
 function CardsList({ cardsData, activeCard, handleCardClick }: CardsListProps) {

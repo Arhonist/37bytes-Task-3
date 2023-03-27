@@ -3,7 +3,6 @@ import styles from './Button.module.css';
 import cn from 'classnames';
 
 interface Props extends PropsWithChildren {
-  oncLick?: () => void;
   className?: string;
 }
 
