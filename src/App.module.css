@@ -2,9 +2,9 @@
   font-family: 'Proxima Nova Condensed';
   src: local('Proxima Nova Condensed Extrabold'),
     local('Proxima-Nova-Condensed-Extrabold'),
-    url('fonts/ProximaNovaCond-Extrabld.woff2') format('woff2'),
-    url('fonts/ProximaNovaCond-Extrabld.woff') format('woff'),
-    url('fonts/ProximaNovaCond-Extrabld.ttf') format('truetype');
+    url('$fonts//ProximaNovaCond-Extrabld.woff2') format('woff2'),
+    url('$fonts//ProximaNovaCond-Extrabld.woff') format('woff'),
+    url('$fonts//ProximaNovaCond-Extrabld.ttf') format('truetype');
 }
 
 .app {
